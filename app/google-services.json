@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "444077994030",
+    "firebase_url": "https://sahabatislamid.firebaseio.com",
+    "project_id": "sahabatislamid",
+    "storage_bucket": "sahabatislamid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444077994030:android:842207b43217549e",
+        "android_client_info": {
+          "package_name": "com.fatihsyams.sahabatislamiid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444077994030-030afjut8vtro4bl4q4vv8hbb0q5ajfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fatihsyams.sahabatislamiid",
+            "certificate_hash": "afabf5be72c0fb5882cb8640f264ff9e0958de21"
+          }
+        },
+        {
+          "client_id": "444077994030-7fcl8b4oitp3s92p333a6hbc6murgjin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRmAvothqbakgs4HhYZmfsk9VKTpqt7Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444077994030-7fcl8b4oitp3s92p333a6hbc6murgjin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

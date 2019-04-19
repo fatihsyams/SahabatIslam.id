@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1c40f"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/crd_home"
+        android:layout_marginTop="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:id="@+id/imgHome"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gb1" />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/crd_satu"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/crd_home"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#c0392b"
+        app:cardCornerRadius="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/pilot"
+            android:text="@string/vidio_ceramah"
+            android:onClick="pindahCeramah"
+            android:textSize="60dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/crd_dua"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/crd_satu"
+        android:layout_margin="20dp"
+        android:backgroundTint="#2980b9"
+        app:cardCornerRadius="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/pilot"
+            android:text="@string/jadwal_shalat"
+            android:textSize="60dp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/crd_tiga"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/crd_dua"
+        android:layout_margin="20dp"
+        android:backgroundTint="#27ae60"
+        app:cardCornerRadius="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/pilot"
+            android:text="@string/profile_kamu"
+            android:textSize="60dp" />
+    </android.support.v7.widget.CardView>
+
+
+    <Button
+        android:onClick="gantiBahasaInggris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_to_english"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="20dp"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

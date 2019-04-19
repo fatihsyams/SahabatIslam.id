@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SahabatIslami.id</string>
+    <string name="vidio_ceramah">Video lecture</string>
+    <string name="jadwal_shalat">Prayer Schedule</string>
+    <string name="profile_kamu">Your profile</string>
+    <string name="change_to_english">Bahasa Indonesia</string>
+
+</resources>

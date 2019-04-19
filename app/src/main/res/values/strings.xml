@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SahabatIslami.id</string>
+    <string name="vidio_ceramah">Vidio Ceramah</string>
+    <string name="jadwal_shalat">Jadwal Shalat</string>
+    <string name="profile_kamu">Profile Kamu</string>
+    <string name="change_to_english">Change to English</string>
+</resources>
